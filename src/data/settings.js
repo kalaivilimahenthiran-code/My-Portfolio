@@ -1,0 +1,15 @@
+export const settings = {
+  name: "KALAIVIZHI MAHENDRAN",
+  availabilityText: "Available for new opportunities",
+  heroBio: "I'm a passionate full-stack developer with expertise in building modern web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
+  typewriterRoles: "Full-Stack Developer, UI/UX Designer, Problem Solver",
+  cvUrl: "/assets/cv/Kalaivili.pdf",
+  email: "kalaivilimahenthiran@gmail.com",
+  phone: "+94 (76) 692 0002",
+  location: "Jaffna, Sri Lanka",
+  github: "https://github.com/yourusername",
+  linkedin: "https://www.linkedin.com/in/kalaivili-mahendran-0505a9323?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+  twitter: "https://twitter.com/yourusername",
+  whatsapp: "https://wa.me/94766920002",
+  aboutText: "Hi, I'm Kalaivili Mahendran.\nSoftware Engineer | Full-Stack Developer | Freelancer\n\nI turn complex system requirements into clean, user-centric code. Here is a quick snapshot of what I bring to the table:\n\n💻 The Tech Foundation: Software Engineering Undergraduate at ICBT Jaffna with an extensive toolkit covering Java, React.js, Node.js, PHP, and Mobile App development.\n\n💼 The Real-World Experience: 6 months of corporate experience sharpening my agile development skills at Innovay, combined with 1 year of managing project lifecycles as an independent freelancer.\n\n🎯 The Philosophy: Believer in writing clean, self-documenting code and designing intuitive user dashboards that optimize workflows.",
+};
