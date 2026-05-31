@@ -20,6 +20,8 @@ import {
   HiOutlineArrowRight,
 } from "react-icons/hi";
 
+export const dynamic = 'force-dynamic';
+
 const quickLinks = [
   { name: "Add Project", href: "/admin/projects", desc: "Showcase your latest work" },
   { name: "Site Settings", href: "/admin/settings", desc: "Name, bio, contact & socials" },

@@ -8,6 +8,8 @@ import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 import toast from "react-hot-toast";
 
+export const dynamic = 'force-dynamic';
+
 export default function ExperienceAdmin() {
   const { experiences, loading, refetch } = useExperiences();
   const [isModalOpen, setIsModalOpen] = useState(false);

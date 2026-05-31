@@ -10,6 +10,8 @@ import GlassCard from "@/components/ui/GlassCard";
 import toast from "react-hot-toast";
 import { HiOutlineCheck, HiOutlineMail, HiOutlineTrash, HiOutlineEye } from "react-icons/hi";
 
+export const dynamic = 'force-dynamic';
+
 function formatDate(timestamp) {
   if (!timestamp?.toDate) return "—";
   return timestamp.toDate().toLocaleString();

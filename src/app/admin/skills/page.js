@@ -10,6 +10,8 @@ import Select from "@/components/ui/Select";
 import AdminPageHeader from "@/components/admin/AdminPageHeader";
 import toast from "react-hot-toast";
 
+export const dynamic = 'force-dynamic';
+
 const SKILL_CATEGORIES = [
   { value: "Frontend Development", label: "Frontend Development" },
   { value: "Backend Development", label: "Backend Development" },

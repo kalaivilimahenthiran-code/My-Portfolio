@@ -9,6 +9,8 @@ import GlassCard from "@/components/ui/GlassCard";
 import ImageUploader from "@/components/admin/ImageUploader";
 import toast from "react-hot-toast";
 
+export const dynamic = 'force-dynamic';
+
 export default function SettingsAdmin() {
   const { settings, loading, refetch } = useSettings();
   const [formData, setFormData] = useState(DEFAULT_SETTINGS);

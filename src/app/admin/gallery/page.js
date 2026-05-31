@@ -14,6 +14,8 @@ import Button from "@/components/ui/Button";
 import ImageUploader from "@/components/admin/ImageUploader";
 import toast from "react-hot-toast";
 
+export const dynamic = 'force-dynamic';
+
 const CATEGORIES = [
   { value: "Setup", label: "Setup" },
   { value: "Events", label: "Events" },

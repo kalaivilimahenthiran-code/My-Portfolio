@@ -9,6 +9,8 @@ import Button from "@/components/ui/Button";
 import toast from "react-hot-toast";
 import { FaStar } from "react-icons/fa";
 
+export const dynamic = 'force-dynamic';
+
 export default function TestimonialsAdmin() {
   const { testimonials, loading, refetch } = useTestimonials();
   const [isModalOpen, setIsModalOpen] = useState(false);

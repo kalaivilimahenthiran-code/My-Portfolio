@@ -11,6 +11,8 @@ import Select from "@/components/ui/Select";
 import AdminPageHeader from "@/components/admin/AdminPageHeader";
 import toast from "react-hot-toast";
 
+export const dynamic = 'force-dynamic';
+
 const PROJECT_CATEGORIES = [
   { value: "Full Stack", label: "Full Stack" },
   { value: "Frontend", label: "Frontend" },

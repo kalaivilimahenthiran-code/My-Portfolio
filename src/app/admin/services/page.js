@@ -12,6 +12,8 @@ import Button from "@/components/ui/Button";
 import { SERVICE_ICON_OPTIONS } from "@/lib/serviceIcons";
 import toast from "react-hot-toast";
 
+export const dynamic = 'force-dynamic';
+
 const emptyForm = { title: "", description: "", icon: "HiDesktopComputer" };
 
 export default function ServicesAdmin() {

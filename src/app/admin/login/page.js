@@ -8,6 +8,8 @@ import Button from "@/components/ui/Button";
 import GlassCard from "@/components/ui/GlassCard";
 import toast from "react-hot-toast";
 
+export const dynamic = 'force-dynamic';
+
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
