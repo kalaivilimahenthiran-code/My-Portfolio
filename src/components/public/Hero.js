@@ -119,7 +119,7 @@ export default function Hero() {
             />
             <div className="absolute inset-8 rounded-full bg-[#0c0c14] border border-white/10 overflow-hidden flex items-center justify-center shadow-[0_0_50px_rgba(139,92,246,0.2)]">
   <img
-    src="/assets/myimage.png"
+    src="/assets/profile-photo.png"
     alt="Profile"
     className="w-full h-full object-cover"
   />

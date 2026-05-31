@@ -38,7 +38,7 @@ export default function PageLoader() {
         >
           <div className="relative flex flex-col items-center">
             <motion.img
-  src="/assets/my1.png"
+  src="/assets/profile-logo.png"
   alt="My Logo"
   className="w-32 md:w-40 mb-8"
   initial={{ opacity: 0, scale: 0.8 }}
