@@ -30,7 +30,8 @@ function assertConfig() {
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 
-export const auth = getAuth(app);
+/** Client-only Auth — avoids SSR initialization errors */
+export const auth = typeof window !== "undefined" ? getAuth(app) : null;
 
 /** Client-only Firestore — avoids SSR "client is offline" errors */
 function initFirestore() {
